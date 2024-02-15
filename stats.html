@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="stats.js" defer></script>
+  <script src="nav.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <img src="icons/logo.png" alt="Logo">
+  </header>
+
+  <nav>
+  </nav>
+
+  <h1>Stats</h1>
+  <a href="Fetch_Stats_points.php">Fetch_points</a>
+  <a href="Fetch_Stats_tackles.php">Fetch_tackles</a>
+  <br>
+
+  <label for="selectOption">Stat:</label>
+  <select id="selectOption" name="selectOption">
+      <option value="option1">Points</option>
+      <option value="option2">Tackles</option>
+  </select>
+
+<table id="stats">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Player</th>
+      <th>Team</th>
+      <th id="type">Points</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+</body>
+</html>
